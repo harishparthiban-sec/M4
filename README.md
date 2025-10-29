@@ -19,7 +19,8 @@ printf("Value after left shift operation is %d",n<<3);
 }
 ```
 ## OUTPUT
-![alt text](image.png)
+<img width="490" height="237" alt="image" src="https://github.com/user-attachments/assets/ef1788a6-392f-424d-bb15-f9317b842005" />
+
 
 
 
@@ -68,7 +69,8 @@ printf("Given numbers are not equal");
 ```
 
 ## OUTPUT
- ![alt text](image-1.png)   
+ <img width="451" height="230" alt="image" src="https://github.com/user-attachments/assets/2a2958e6-6484-489e-96d1-f19372f96d53" />
+
 
 ## RESULT
 
@@ -105,7 +107,7 @@ printf("%s",str);
 }
 ```
 ## OUTPUT
-![alt text](image-2.png)
+<img width="575" height="240" alt="image" src="https://github.com/user-attachments/assets/bcc9a8f4-5ed2-4397-ab37-86387ca0ee53" />
 
 
 
@@ -134,7 +136,7 @@ Write a C Program to count the total number of words in a given string using do 
 #include<ctype.h>
 int main() {
 char str[100];
-int count=0;
+int count=1;
 printf("Enter a string: ");
 scanf("%[^\n]",str);
 for(int i=0;str[i]!='\0';i++)
@@ -142,11 +144,12 @@ for(int i=0;str[i]!='\0';i++)
     if(str[i]==' ')
     count++;
 }
-printf("Number of words = %d",count+1);
+printf("Number of words = %d",count);
 }
 ```
 ## OUTPUT
-![alt text](image-3.png)
+<img width="546" height="258" alt="image" src="https://github.com/user-attachments/assets/6027b1d6-8675-4e00-8e6b-634a4b6d0aab" />
+
 
 
 
@@ -202,7 +205,7 @@ printf("Given strings are not same");
 ```
 
 ## OUTPUT
- ![alt text](image-4.png)
+ <img width="461" height="243" alt="image" src="https://github.com/user-attachments/assets/d87e1a78-22ef-40f9-bb59-8c9e0347d26a" />
 
 ## RESULT
 Thus the C Program to compare two strings without using strcmp() has been executed successfully.
